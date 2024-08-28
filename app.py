@@ -50,5 +50,7 @@ def is_odd(number):
 
         return odd_json
 
-# Run the api
-app.run(host='127.0.0.1', port=5000)
+if __name__ == '__main__':
+
+    # Run the api
+    app.run(host='127.0.0.1', port=5010)
