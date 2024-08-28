@@ -18,4 +18,4 @@ EXPOSE 5010
 
 
 # Run the command to start the Flask app
-CMD ["gunicorn", "--workers=2", "--bind=127.0.0.1:5010", "app:app"]
+CMD ["gunicorn", "--workers=2", "--bind=0.0.0.0:5010", "app:app"]
