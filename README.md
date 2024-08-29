@@ -25,7 +25,7 @@ pip3  install -r requirements.txt
 python3 app.py
 ```
 
-4. Navigate to `127.0.0.1:5010/api/isodd/<number>` to check where `<number>` is odd.
+4. Navigate to `127.0.0.1:5010/api/isodd/<number>` to check whether `<number>` is odd.
 
 ### With Docker:
 
@@ -45,5 +45,5 @@ docker build --tag isoddapi .
 docker run --name isoddapi -d -p 5010:5010 isoddapi
 ```
 
-4. Navigate to `127.0.0.1:5010/api/isodd/<number>` to check where `<number>` is odd.
+4. Navigate to `127.0.0.1:5010/api/isodd/<number>` to check whether `<number>` is odd.
 
