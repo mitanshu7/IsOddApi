@@ -2,7 +2,7 @@
 This API tell you whether a number is Odd. It uses [isevenapi.xyz](https://isevenapi.xyz/) in background and inverts the result.
 
 ## Requirements
-1. [Python](https://www.python.org/)
+1. [Python](https://www.python.org/) 3.11.9
 2. [Docker](https://www.docker.com/) (Optional)
 
 ## Usage:
